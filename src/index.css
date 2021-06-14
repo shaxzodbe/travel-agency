@@ -37,7 +37,7 @@ h6 {
 
 .showcase {
   background: url(./assets/1.jpg) no-repeat center/cover;
-  height: 650px;
+  height: calc(100vh - 55.6px);
 }
 
 .showcase .overlay {
@@ -46,8 +46,8 @@ h6 {
   align-items: center;
   justify-content: center;
   text-align: center;
-  height: 650px;
-  width: 100vw;
+  height: calc(100vh - 55.6px);
+  max-width: 100%;
   color: #fff;
   background-color: rgba(0, 0, 0, 0.4);
 }
